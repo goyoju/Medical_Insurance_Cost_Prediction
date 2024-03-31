@@ -19,19 +19,19 @@ The overarching objective of this project is to develop a regression model for p
 -  **charges:**  Individual medical costs billed by health insurance
 
 ## Visualization
-Age vs Charges
+**Age vs Charges**
 ![age_plot](https://github.com/goyoju/Earthquake_Data_Visualization/assets/61122366/f20b0a0b-5b2e-4a75-b9db-d20e72724652)
 
-BMI vs Charges
+**BMI vs Charges**
 ![bmi_plot](https://github.com/goyoju/Earthquake_Data_Visualization/assets/61122366/d3075c01-14e9-4a4d-8b86-849c625f5294)
 
-Chindren vs Charges
+**Chindren vs Charges**
 ![children_plot](https://github.com/goyoju/Earthquake_Data_Visualization/assets/61122366/fb13cbce-bdea-4823-b537-4173e2f61761)
 
-Smoker vs Charges
+**Smoker vs Charges**
 ![smoker_plot](https://github.com/goyoju/Earthquake_Data_Visualization/assets/61122366/89feb21c-6337-4a18-9b5f-19cabd9e7e2a)
 
-Region vs Charges
+**Region vs Charges**
 ![region_plot](https://github.com/goyoju/Earthquake_Data_Visualization/assets/61122366/60472e96-0ab0-4c9a-b68c-3424a2aca4f5)
 
 ## Encoded dataset
