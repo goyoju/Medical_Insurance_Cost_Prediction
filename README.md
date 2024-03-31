@@ -1,4 +1,6 @@
-For my final project, I have selected the Medical Cost Personal Datasets, driven by my current concern about health insurance as a recent U.S. citizen. This transition is particularly significant for me, having previously relied on student insurance. The project offers a valuable opportunity to delve into the average costs of health insurance for individuals in the U.S. and to pinpoint factors that exhibit strong correlations with these costs.
+# Medical Insurance Cost Prediction Model
+
+For my project, I have selected the Medical Cost Personal Datasets, driven by my current concern about health insurance as a recent U.S. citizen. This transition is particularly significant for me, having previously relied on student insurance. The project offers a valuable opportunity to delve into the average costs of health insurance for individuals in the U.S. and to pinpoint factors that exhibit strong correlations with these costs.
 
 The overarching objective of this project is to develop a regression model for predicting medical insurance charges. The model will be built using key features such as age, BMI, number of children, region, and smoking status.
 
