@@ -36,16 +36,21 @@ Region vs Charges
 
 ## Encoded dataset
 **Modified_csv.csv:**
+
 ![2024-03-30 223331](https://github.com/goyoju/Earthquake_Data_Visualization/assets/61122366/faa6f2a3-943a-4d48-ab45-6dae5544ed94)
 
 
 ## Prediction Model ( Linear Regression )
 Using **Gradient Descent Algorithm**
+
 ![2024-03-30 223637](https://github.com/goyoju/Earthquake_Data_Visualization/assets/61122366/572a33ee-3ced-49a5-82c4-32eb434d8d11)
 
-**Imange Source:** [Geeksforgeeks](https://www.geeksforgeeks.org/gradient-descent-in-linear-regression/)
+**Imange Source:**
+
+[Geeksforgeeks](https://www.geeksforgeeks.org/gradient-descent-in-linear-regression/)
 
 Result of the model ( **R^2** score):
+
 ![2024-03-30 224612](https://github.com/goyoju/Earthquake_Data_Visualization/assets/61122366/82ac5531-80ee-4221-b984-f17574520069)
 
 ## Test
