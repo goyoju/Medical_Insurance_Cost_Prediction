@@ -40,10 +40,12 @@ Region vs Charges
 
 
 ## Prediction Model ( Linear Regression )
+Using **Gradient Descent Algorithm**
 ![2024-03-30 223637](https://github.com/goyoju/Earthquake_Data_Visualization/assets/61122366/572a33ee-3ced-49a5-82c4-32eb434d8d11)
 
-Source : [Geeksforgeeks](https://www.geeksforgeeks.org/gradient-descent-in-linear-regression/)
+**Imange Source:** [Geeksforgeeks](https://www.geeksforgeeks.org/gradient-descent-in-linear-regression/)
 
+Result of the model ( **R^2** score):
 ![2024-03-30 224612](https://github.com/goyoju/Earthquake_Data_Visualization/assets/61122366/82ac5531-80ee-4221-b984-f17574520069)
 
 ## Test
