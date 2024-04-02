@@ -1,8 +1,65 @@
 # Medical Insurance Cost Prediction Model
 
-For my project, I have selected the Medical Cost Personal Datasets, driven by my current concern about health insurance as a recent U.S. citizen. This transition is particularly significant for me, having previously relied on student insurance. The project offers a valuable opportunity to delve into the average costs of health insurance for individuals in the U.S. and to pinpoint factors that exhibit strong correlations with these costs.
+The primary goal of this project is to develop a regression model capable of predicting medical insurance costs, utilizing key features such as age, BMI, number of children, region, and smoking status. In this project, we have successfully implemented a model that receives values for these characteristics from the user and, based on them, predicts the medical insurance costs.
 
-The overarching objective of this project is to develop a regression model for predicting medical insurance charges. The model will be built using key features such as age, BMI, number of children, region, and smoking status.
+This model analyzes the personal information provided by the user to forecast the cost of medical insurance. It allows users to understand how their lifestyle or conditions could potentially affect their insurance costs. Moreover, if necessary, it can aid in making informed decisions about adopting healthier lifestyle choices or reassessing their insurance plans.
+
+By employing data science and machine learning techniques, this project tackles a real-world issue, providing practical insights and valuable predictions to users regarding their medical insurance costs.
+
+**Input :**
+
+![image](https://github.com/goyoju/Medical_Insurance_Cost_Prediction/assets/61122366/17a3e3ee-5bd2-4f86-bfc4-9df6f040194f)
+
+**Output :**
+
+![image](https://github.com/goyoju/Medical_Insurance_Cost_Prediction/assets/61122366/10105d2b-d353-4042-85bf-bd6f52716180)
+
+This example illustrates how the model utilizes the provided personal information to estimate medical insurance costs, offering users insights into the factors that significantly impact their insurance premiums.
+
+## How to use
+
+**System**
+- Ensure you have Rust installed on your system. You can install Rust through [rustup](https://www.rust-lang.org/tools/install).
+- Use a version control tool like Git to clone the repository.
+
+**Running the Prediction Model**
+- Clone the Repository
+
+{
+
+    $ git clone https://github.com/goyoju/Medical_Insurance_Cost_Prediction.git .
+}
+
+- Use the command prompt (cmd) to navigate to the cloned repository's directory:
+ 
+{
+
+    $ cd <your_file_location>\Prediction
+}
+
+- Use the following command to compile and run the prediction model
+
+{
+
+    $ cargo run
+}
+
+Follow the on-screen prompts to input your Age, Sex (0 for female, 1 for male), BMI, Number of Children, Smoker (0 for no, 1 for yes), and Region (0 for northwest, 1 for northeast, 2 for southwest, 3 for southeast).
+
+## Example Outputs
+**Input :**
+
+Age: 19
+Sex (0 for female, 1 for male): **1**
+BMI: **25.05**
+Children: **0**
+Smoker (0 for no, 1 for yes): **0**
+Region (0 for northwest, 1 for northeast, 2 for southwest, 3 for southeast): **1**
+
+**Output :**
+
+Predicted Insurance Charge: **$8126.05**
+
 
 ## Data Overview
 **Source:** [Kaggle](https://www.kaggle.com/datasets/mirichoi0218/insurance/data)
