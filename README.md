@@ -23,7 +23,7 @@ This example illustrates how the model utilizes the provided personal informatio
 - Use a version control tool like Git to clone the repository.
 
 **Running the Prediction Model**
-- Clone the Repository
+- Clone the Repository first
 
 {
 
