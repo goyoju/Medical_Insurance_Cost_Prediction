@@ -3,6 +3,7 @@ use std::error::Error;
 use std::fs::File;
 use csv::ReaderBuilder;
 use rand::Rng;
+use std::io::{self, Write};
 
 // constructing linear regression model
 #[derive(Debug)]
@@ -130,8 +131,33 @@ fn main() -> Result<(), Box<dyn Error>> {
 
     // returning R^2 value
     println!("R^2: {}", r_2);
+    
+    // Charge prediction
+    // Getting variables from user
+    let age = read_input("Age: ")?;
+    let sex = read_input("Sex (0 for female, 1 for male): ")?;
+    let bmi = read_input("BMI: ")?;
+    let children = read_input("Children: ")?;
+    let smoker = read_input("Smoker (0 for no, 1 for yes): ")?;
+    let region = read_input("Region (0 for northwest, 1 for northeast, 2 for southwest, 3 for southeast): ")?;
+
+    // Compute the estimate charge
+    let user_data = arr2(&[[age, sex, bmi, children, smoker, region]]);
+    let prediction = model.predict(&user_data);
+
+    println!("Predicted Insurance Charge: {:.2}", prediction[0]);
 
     Ok(())
+}
+
+fn read_input(prompt: &str) -> Result<f64, Box<dyn Error>> {
+    let mut input = String::new();
+    print!("{}", prompt);
+    io::stdout().flush()?;
+    io::stdin().read_line(&mut input)?;
+    let trimmed = input.trim();
+    let num: f64 = trimmed.parse()?;
+    Ok(num)
 }
 
 
