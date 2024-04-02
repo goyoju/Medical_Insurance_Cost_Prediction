@@ -1,6 +1,6 @@
 # Medical Insurance Cost Prediction Model
 
-The primary goal of this project is to develop a regression model capable of predicting medical insurance costs, utilizing key features such as age, BMI, number of children, region, and smoking status. In this project, we have successfully implemented a model that receives values for these characteristics from the user and, based on them, predicts the medical insurance costs.
+The primary goal of this project is to develop a **regression model** capable of predicting medical insurance costs, utilizing key features such as age, BMI, number of children, region, and smoking status. In this project, we have successfully implemented a model that receives values for these characteristics from the user and, based on them, predicts the medical insurance costs.
 
 This model analyzes the personal information provided by the user to forecast the cost of medical insurance. It allows users to understand how their lifestyle or conditions could potentially affect their insurance costs. Moreover, if necessary, it can aid in making informed decisions about adopting healthier lifestyle choices or reassessing their insurance plans.
 
@@ -30,7 +30,7 @@ This example illustrates how the model utilizes the provided personal informatio
     $ git clone https://github.com/goyoju/Medical_Insurance_Cost_Prediction.git .
 }
 
-- Use the command prompt (cmd) to navigate to the cloned repository's directory:
+- Use the **command prompt (cmd)** to navigate to the cloned repository's directory:
  
 {
 
@@ -49,12 +49,12 @@ Follow the on-screen prompts to input your Age, Sex (0 for female, 1 for male), 
 ## Example Outputs
 **Input :**
 
-Age: 19
-Sex (0 for female, 1 for male): **1**
-BMI: **25.05**
-Children: **0**
-Smoker (0 for no, 1 for yes): **0**
-Region (0 for northwest, 1 for northeast, 2 for southwest, 3 for southeast): **1**
+- Age: **19**
+- Sex (0 for female, 1 for male): **1**
+- BMI: **25.05**
+- Children: **0**
+- Smoker (0 for no, 1 for yes): **0**
+- Region (0 for northwest, 1 for northeast, 2 for southwest, 3 for southeast): **1**
 
 **Output :**
 
