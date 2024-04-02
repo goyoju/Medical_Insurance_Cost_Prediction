@@ -7,7 +7,6 @@ This model analyzes the personal information provided by the user to forecast th
 By employing data science and machine learning techniques, this project tackles a real-world issue, providing practical insights and valuable predictions to users regarding their medical insurance costs.
 
 **Input :**
-
 ![image](https://github.com/goyoju/Medical_Insurance_Cost_Prediction/assets/61122366/17a3e3ee-5bd2-4f86-bfc4-9df6f040194f)
 
 **Output :**
