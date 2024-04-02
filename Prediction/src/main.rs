@@ -145,7 +145,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     let user_data = arr2(&[[age, sex, bmi, children, smoker, region]]);
     let prediction = model.predict(&user_data);
 
-    println!("Predicted Insurance Charge: {:.2}", prediction[0]);
+    println!("Predicted Insurance Charge: ${:.2}", prediction[0]);
 
     Ok(())
 }
