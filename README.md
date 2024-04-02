@@ -12,7 +12,7 @@ By employing data science and machine learning techniques, this project tackles 
 
 **Output :**
 
-![image](https://github.com/goyoju/Medical_Insurance_Cost_Prediction/assets/61122366/1d9ae59f-8273-4078-b17f-3efdbbadbe66)
+![image](https://github.com/goyoju/Medical_Insurance_Cost_Prediction/assets/61122366/b9297205-1eac-44a3-8db9-8b157ecfd2a7)
 
 This example illustrates how the model utilizes the provided personal information to estimate medical insurance costs, offering users insights into the factors that significantly impact their insurance premiums.
 
